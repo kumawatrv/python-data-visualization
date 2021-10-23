@@ -9,3 +9,7 @@ new_list.append('a')
 
 print('New List:', new_list)
 print('Old List:', old_list)
+
+import matplotlib
+from matplotlib import plot as plt 
+plt.plot(new_list,old_list)
